@@ -7,9 +7,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $res=mysqli_query($con,$sql)
     or
     die("Query Execution Error");
-    echo "Data received";
     while ($row = mysqli_fetch_array($res)){
-        if($row['Password']!=$password){
+         if($row['Password']!=$password){
                       echo '<script> alert("Incorrect Password");window.location.href="signin.html";</script>';
         }
         else{
