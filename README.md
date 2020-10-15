@@ -13,7 +13,7 @@ This Project can be used in an office to view employee details, and an employee 
 3. Dashboard:- Once the user logs in he/she can enter work experience and can also view other's work experiences.
 4. Admin Page:- The admin can log in with credentials and can view all the list of users and the details they provided during sign-up.
 
-Along with the Html Pages, there are respective PHP pages for data entry and fetching from the database and all the inputs provided by the user are validated with JavaScript for efficiency in the database.
+Along with the Html Pages, there are respective PHP pages for data entry and fetching data from the database and all the inputs provided by the user are validated with JavaScript for efficiency in the database.
 
 Languages used:
 HTML, CSS, JavaScript, PHP, Ajax and MySql.
